@@ -17,6 +17,8 @@ namespace ReaValley.DataMapper
             IResultSetMapper<TResult> resultSetMapper)
         {
             _database = database;
+
+
             _parameterMapper = parameterMapper;
             _resultSetMapper = resultSetMapper;
             _storedProcedureName = storedProcedureName;
